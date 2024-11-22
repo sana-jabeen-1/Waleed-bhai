@@ -198,7 +198,7 @@ function About() {
                 />
                 <div>
                   <h4 className="font-bold font-Syne text-xl text-black-800">
-                    React JS
+                    Waleed Iqbal
                   </h4>
                   <p className="text-sm font-normal font-Inter text-black-800">
                     (90%)
