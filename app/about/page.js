@@ -166,7 +166,7 @@ function About() {
 
       case "education_tab":
         return (
-          <div className="tab-content active relative">
+          <div className="tab-content active">
             <h4 className="text-black-800 text-2xl lg:text-[32px] font-bold font-Syne mb-6">
               Education
             </h4>

@@ -36,7 +36,7 @@ function page() {
         return (
           <div className="tab-content active relative">
             <h4 className="text-black-800 text-2xl lg:text-[32px] font-bold font-Syne mb-6">
-              Based in Germany
+              Based in Chicago
             </h4>
             <p className="paragraph mb-7">
               Waleed Iqbal,{" "}
@@ -58,7 +58,7 @@ function page() {
                   Nationality
                 </span>
                 <span className="text-black-800 text-2xl font-bold font-Syne leading-8">
-                  Germany
+                  chicago
                 </span>
               </li>
               <li className="gap-10 inline-flex items-center">
@@ -82,7 +82,7 @@ function page() {
                   Experience
                 </span>
                 <span className="text-black-800 text-2xl font-bold font-Syne leading-8">
-                  12+ years
+                  7+ years
                 </span>
               </li>
               <li className="gap-10 inline-flex items-center">
@@ -269,8 +269,9 @@ function page() {
                   alt="logo"
                 />
               </a>
-              <a
-                href="contact.html"
+
+              <Link
+                href="/contact"
                 className="flex items-center flex-wrap py-[6px] px-3 text-[15px] font-bold text-active leading-none mr-2 transition-all duration-300 hover:text-orange md:hover:text-white group"
               >
                 Let’s Talk
@@ -300,7 +301,7 @@ function page() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </div>
 
             <div
@@ -485,8 +486,8 @@ function page() {
                 Product Designer | Based in Germany
               </p>
               <div className="flex mb-8 space-x-4 ml-5">
-                <a
-                  href="contact.html"
+                <Link
+                  href="/contact"
                   className="btn-primary flex items-center group"
                   data-aos="fade-right"
                   data-aos-delay="1400"
@@ -516,7 +517,7 @@ function page() {
                       />
                     </svg>
                   </span>
-                </a>
+                </Link>
                 <a
                   href="projects.html"
                   className="btn-primary-outline flex items-center group"
@@ -572,7 +573,7 @@ function page() {
                 height={870}
               />
 
-              <a href="contact.html">
+              <Link href="/contact">
                 <svg
                   className="absolute bottom-[475px] lg:bottom-[80px] xl:bottom-[80px] right-[40px] lg:right-[150px] xl:right-[150px]"
                   width="180"
@@ -684,7 +685,7 @@ function page() {
                     ></path>
                   </g>
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -1749,7 +1750,7 @@ function page() {
                           />
                         </svg>
                       </span>{" "}
-                      jown William
+                      Waleed Iqbal
                     </h4>
                   </div>
                 </div>
