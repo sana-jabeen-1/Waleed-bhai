@@ -370,9 +370,7 @@ function page() {
                 { name: "Home", path: "/" },
                 { name: "About Me", path: "/about" },
                 { name: "Project", path: "/projects" },
-                { name: "Project Details", path: "/projects/:id" },
                 { name: "Blog", path: "/blogs" },
-                { name: "Blog Details", path: "/blogs/:id" },
                 { name: "Contact Me", path: "/contact" },
               ].map((item, index) => (
                 <li
